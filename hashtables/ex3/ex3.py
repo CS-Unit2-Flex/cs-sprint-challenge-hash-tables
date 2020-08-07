@@ -14,6 +14,11 @@ def intersection(arrays):
                     table[number] = 1
                 else:
                     table[number] += 1 # for some reason I couldn't use the default else (as in... just not indent it after the if. Interesting)
+            # if len(array) == 1:
+            #     number = array[0]
+            #     if number not in table:
+            #         table[number] = 1
+            #     table[number] += 1
 
     build_table(arrays)
     
